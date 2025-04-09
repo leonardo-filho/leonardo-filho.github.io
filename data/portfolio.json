@@ -1,1 +1,103 @@
-{"name":"Leo","headerTaglineOne":"Olá 👋","headerTaglineTwo":"Sou Leonardo Rodrigues","headerTaglineThree":"Analista de Dados e BI","headerTaglineFour":"em Belém, Pará 🇧🇷","showBlog":false,"darkMode":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/leonardo-filho"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/leo-filho/"},{"id":"3","title":"Email","link":"mailto:leronasfilho@gmail.com"}],"projects":[{"id":"1","title":"Nexar","description":"Plataforma para manutenção de equipamentos com foco em dados e insights","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?auto=format&fit=crop&w=400&q=60","url":"https://github.com/leonardo-filho"}],"services":[{"id":"1","title":"Análise de Dados","description":"Transformação de dados em insights estratégicos com foco em eficiência e inovação."},{"id":"2","title":"Dashboards e BI","description":"Criação de painéis interativos em Power BI e Excel avançado para tomada de decisão."},{"id":"3","title":"ETL e Limpeza de Dados","description":"Tratamento, transformação e integração de dados com ferramentas como Python, SQL e PySpark."},{"id":"4","title":"Automação de Qualidade","description":"Testes manuais e automatizados, uso de Python e ferramentas como Orange."}],"aboutpara":"Sou Analista de Dados e BI formado em Engenharia da Computação. Tenho experiência com análise, tratamento e visualização de dados, além de desenvolvimento de projetos que usam ferramentas como Power BI, Python, SQL, PySpark e Excel avançado. Possuo conhecimento em metodologias ágeis e estou sempre em busca de transformar dados em decisões mais inteligentes.","resume":{"tagline":"👋 Sou analista de dados e BI com foco em insights e eficiência.","description":"Tenho experiência prática com Power BI, Python, SQL e ferramentas de visualização e ETL. Participei de projetos em empresas como Enacom Group e Nexar, unindo engenharia da computação com ciência de dados.","experiences":[{"id":"1","dates":"mar 2025 - presente","type":"Full Time","position":"Analista de Dados na Nexar","bullets":["Desenvolvimento de dashboards e análise estratégica de dados.","Contribuição com front-end (HTML, CSS, JS) e backend em Python."]},{"id":"2","dates":"mar 2020 - mar 2022","type":"Full Time","position":"Analista de Qualidade na Enacom Group","bullets":["Execução de testes, documentação de falhas e uso de Power BI e Excel para análise de dados."]}],"education":{"universityName":"Centro Universitário do Estado do Pará","universityDate":"2020 - 2024","universityPara":"Curso de Engenharia da Computação com foco em ciência de dados e aplicações práticas em BI."},"languages":["Python","SQL","HTML","CSS","JavaScript"],"frameworks":["PySpark","Power BI","Tableau"],"others":["Excel Avançado","AWS","Figma","Metodologias Ágeis"]}}
+{
+  "name": "Leo",
+  "headerTaglineOne": "Olá 👋",
+  "headerTaglineTwo": "Sou Leonardo Rodrigues",
+  "headerTaglineThree": "Analista de Dados e BI",
+  "headerTaglineFour": "em Belém, Pará 🇧🇷",
+  "showBlog": false,
+  "darkMode": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/leonardo-filho"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/leo-filho/"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "mailto:leronasfilho@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Nexar",
+      "description": "Plataforma para manutenção de equipamentos com foco em dados e insights",
+      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/leonardo-filho"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Análise de Dados",
+      "description": "Transformação de dados em insights estratégicos com foco em eficiência e inovação."
+    },
+    {
+      "id": "2",
+      "title": "Dashboards e BI",
+      "description": "Criação de painéis interativos em Power BI e Excel avançado para tomada de decisão."
+    },
+    {
+      "id": "3",
+      "title": "ETL e Limpeza de Dados",
+      "description": "Tratamento, transformação e integração de dados com ferramentas como Python, SQL e PySpark."
+    },
+    {
+      "id": "4",
+      "title": "Automação de Qualidade",
+      "description": "Testes manuais e automatizados, uso de Python e ferramentas como Orange."
+    }
+  ],
+  "aboutpara": "Sou Analista de Dados e BI formado em Engenharia da Computação. Tenho experiência com análise, tratamento e visualização de dados, além de desenvolvimento de projetos que usam ferramentas como Power BI, Python, SQL, PySpark e Excel avançado. Possuo conhecimento em metodologias ágeis e estou sempre em busca de transformar dados em decisões mais inteligentes.",
+  "resume": {
+    "tagline": "👋 Sou analista de dados e BI com foco em insights e eficiência.",
+    "description": "Tenho experiência prática com Power BI, Python, SQL e ferramentas de visualização e ETL. Participei de projetos em empresas como Enacom Group e Nexar, unindo engenharia da computação com ciência de dados.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "mar 2025 - presente",
+        "type": "Full Time",
+        "position": "Analista de Dados na Nexar",
+        "bullets": [
+          "Desenvolvimento de dashboards e análise estratégica de dados.",
+          "Contribuição com front-end (HTML, CSS, JS) e backend em Python."
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "mar 2020 - mar 2022",
+        "type": "Full Time",
+        "position": "Analista de Qualidade na Enacom Group",
+        "bullets": [
+          "Execução de testes, documentação de falhas e uso de Power BI e Excel para análise de dados."
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "Centro Universitário do Estado do Pará",
+      "universityDate": "2020 - 2024",
+      "universityPara": "Curso de Engenharia da Computação com foco em ciência de dados e aplicações práticas em BI."
+    },
+    "languages": ["Python", "SQL", "HTML", "CSS", "JavaScript"],
+    "frameworks": ["PySpark", "Power BI", "Tableau"],
+    "others": ["Excel Avançado", "AWS", "Figma", "Metodologias Ágeis"]
+  },
+  "educationExtra": [
+    {
+      "institution": "Centro Universitário do Estado do Pará",
+      "degree": "Engenharia da Computação",
+      "period": "2020 - 2024"
+    },
+    {
+      "institution": "PUC RS",
+      "degree": "MBA em AI, Data Science e Big Data",
+      "period": "2025 - 2026"
+    }
+  ]
+}

@@ -22,6 +22,7 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+  const educationRef = useRef();
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -32,6 +33,7 @@ export default function Home() {
     });
   };
 
+  
   const handleAboutScroll = () => {
     window.scrollTo({
       top: aboutRef.current.offsetTop,
@@ -133,7 +135,24 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
+
+        {/* Formação */}
+{data.educationExtra && data.educationExtra.length > 0 && (
+  <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={educationRef}>
+    <h1 className="tablet:m-10 text-2xl text-bold">Formação.</h1>
+    <div className="tablet:m-10 mt-2 space-y-4 text-xl laptop:text-2xl">
+      {data.educationExtra.map((edu, index) => (
+        <div key={index}>
+          <p className="font-semibold">{edu.institution}</p>
+          <p>{edu.degree}</p>
+          <p className="text-sm text-gray-500">{edu.period}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
         <Footer />
+
       </div>
     </div>
   );
