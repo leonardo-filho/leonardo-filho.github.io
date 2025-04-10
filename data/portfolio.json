@@ -28,8 +28,8 @@
       "id": "1",
       "title": "Nexar",
       "description": "Plataforma para manutenção de equipamentos com foco em dados e insights",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/leonardo-filho"
+      "imageSrc": "/images/Captura de tela 2023-08-06 002139.png",
+      "url": "https://github.com/leonardo-filho/ProjetoComercial"
     }
   ],
   "services": [
@@ -50,9 +50,10 @@
     },
     {
       "id": "4",
-      "title": "Automação de Qualidade",
-      "description": "Testes manuais e automatizados, uso de Python e ferramentas como Orange."
+      "title": "Visualização Estratégica",
+      "description": "Criação de gráficos e relatórios interativos que facilitam o entendimento de dados complexos e ajudam na comunicação com stakeholders."
     }
+    
   ],
   "aboutpara": "Sou Analista de Dados e BI formado em Engenharia da Computação. Tenho experiência com análise, tratamento e visualização de dados, além de desenvolvimento de projetos que usam ferramentas como Power BI, Python, SQL, PySpark e Excel avançado. Possuo conhecimento em metodologias ágeis e estou sempre em busca de transformar dados em decisões mais inteligentes.",
   "resume": {
@@ -99,5 +100,74 @@
       "degree": "MBA em AI, Data Science e Big Data",
       "period": "2025 - 2026"
     }
-  ]
+  ],
+  "certifications": [
+  {
+    "title": "Power BI Para Business Intelligence e Data Science",
+    "issuer": "DSA",
+    "date": "2024"
+  },
+  {
+    "title": "Python para Análise de Dados e Data Science",
+    "issuer": "DSA",
+    "date": "2025"
+  },
+  {
+    "title": "Python Data Analytics",
+    "issuer": "Meta",
+    "date": "2025"
+  },
+  {
+    "title": "SQL",
+    "issuer": "Udemy",
+    "date": "2025"
+  },
+  {
+    "title": "Python",
+    "issuer": "Udemy",
+    "date": "2022"
+  },
+  {
+    "title": "Cloud Computing",
+    "issuer": "LinkedIn Learning",
+    "date": "2022"
+  },
+  {
+    "title": "Cyber Security",
+    "issuer": "Cisco",
+    "date": "2022"
+  },
+  {
+    "title": "I.A - Copilot",
+    "issuer": "Santander",
+    "date": "2024"
+  },
+  {
+    "title": "Curso de Inglês",
+    "issuer": "CCBEU",
+    "date": "2018"
+  },
+  {
+    "title": "Analista de BI",
+    "issuer": "DNC",
+    "date": "2025"
+  },
+  {
+    "title": "Trabalho voluntário: Manutenção e Análise de dados",
+    "issuer": "JOC XXVI - CESUPA",
+    "date": "2023"
+  },
+  {
+    "title": "Congresso de RPA e AI– Instituto Information Management",
+    "issuer": "JOC XXVI - CESUPA",
+    "date": "2024 "
+  },
+  {
+    "title": "Certificado Profissional de Google Advanced Data Analytics",
+    "issuer": "Coursera",
+    "date": "Estimado para jun 2025"
+  }
+]
+
+
 }
