@@ -10,8 +10,8 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-import Modal from "../components/Modal/modal";
 import { useState } from "react";
+import ProjectGallery from "../components/ProjectGallery";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -26,18 +26,6 @@ export default function Home() {
   const textFour = useRef();
   const educationRef = useRef();
 
-  const [selectedProject, setSelectedProject] = useState(null);
-const [isModalOpen, setIsModalOpen] = useState(false);
-
-const openModal = (project) => {
-  setSelectedProject(project);
-  setIsModalOpen(true);
-};
-
-const closeModal = () => {
-  setSelectedProject(null);
-  setIsModalOpen(false);
-};
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -111,21 +99,9 @@ const closeModal = () => {
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Projetos.</h1>
+  <ProjectGallery />
+</div>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-          {data.projects.map((project) => (
-  <WorkCard
-    key={project.id}
-    img={project.imageSrc}
-    name={project.title}
-    description={project.description}
-    onClick={() => openModal(project)}
-  />
-))}
-
-          </div>
-        </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">Serviços.</h1>
@@ -185,7 +161,7 @@ const closeModal = () => {
   </div>
 )}
 
-<Modal isOpen={isModalOpen} onClose={closeModal} project={selectedProject} />
+
 
         <Footer />
         

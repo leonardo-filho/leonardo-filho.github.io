@@ -26,11 +26,11 @@
   "projects": [
     {
       "id": "1",
-      "title": "Nexar",
-      "description": "Plataforma para manutenção de equipamentos com foco em dados e insights",
-      "imageSrc": "/images/Captura de tela 2023-08-06 002139.png",
-      "url": "https://github.com/leonardo-filho/ProjetoComercial"
-    }
+      "title": "📊 Dashboard de Vendas com Power BI",
+      "description": "Visualização interativa com KPIs como Receita, Ticket Médio, Região e Canal de Vendas, utilizando dados do Kaggle.",
+      "imageSrc": "/images/dashboard-vendas.png",
+      "url": ""
+    }    
   ],
   "services": [
     {
