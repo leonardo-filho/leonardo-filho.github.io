@@ -1,41 +1,29 @@
-import React, { useEffect, useState } from "react";
-import CustomCursor from "custom-cursor-react";
-import "custom-cursor-react/dist/index.css";
+// components/Cursor.js
+import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
 const Cursor = () => {
-  const theme = useTheme();
-  const [mount, setMount] = useState();
-
-  const getCusomColor = () => {
-    if (theme.theme === "dark") {
-      return "#fff";
-    } else if (theme.theme === "light") {
-      return "#000";
-    }
-  };
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const { theme } = useTheme();
 
   useEffect(() => {
-    setMount(true);
+    const move = (e) => setPosition({ x: e.clientX, y: e.clientY });
+    window.addEventListener("mousemove", move);
+    return () => window.removeEventListener("mousemove", move);
   }, []);
+
+  const color = theme === "dark" ? "#fff" : "#000";
+
   return (
-    <>
-      {mount && (
-        <CustomCursor
-          targets={[".link"]}
-          customClass="custom-cursor"
-          dimensions={30}
-          fill={getCusomColor()}
-          smoothness={{
-            movement: 0.2,
-            scale: 0.1,
-            opacity: 0.2,
-          }}
-          targetOpacity={0.5}
-          targetScale={2}
-        />
-      )}
-    </>
+    <div
+      className="pointer-events-none fixed z-[9999] w-6 h-6 rounded-full border transition-all duration-100"
+      style={{
+        top: position.y,
+        left: position.x,
+        borderColor: color,
+        transform: "translate(-50%, -50%)",
+      }}
+    />
   );
 };
 
