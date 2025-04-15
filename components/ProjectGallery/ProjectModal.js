@@ -16,8 +16,13 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
       <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl w-full max-w-5xl max-h-[90vh] p-6 overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-        <p className="text-base mb-4">{project.description}</p>
+      <h2 className="text-2xl font-bold mb-2 text-black dark:text-white">
+  {project.title}
+</h2>
+<p className="text-base mb-4 text-black dark:text-white">
+  {project.description}
+</p>
+
 
         <div className="flex flex-wrap gap-2 mb-4">
           {project.technologies.map((tech, i) => (
