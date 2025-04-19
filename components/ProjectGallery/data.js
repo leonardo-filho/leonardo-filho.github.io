@@ -28,15 +28,58 @@ export const projects = [
           }
         ]
       },
-    {
-      id: 2,
-      title: "Nexar",
-      description:
-        "Plataforma para manutenção de equipamentos com foco em dados e insights, frontend em HTML/CSS/JS e backend com Python.",
-      technologies: ["Python", "HTML", "CSS", "JavaScript"],
-      images: [
-        "/images/nexar-1.png",
-        "/images/nexar-2.png"
-      ]
-    }
+      {
+        id: 2,
+        title: "Análise de Anomalias em Transações Ethereum",
+        description:
+"Este projeto aplica técnicas de análise de dados e Machine Learning não supervisionado, como Isolation Forest e DBSCAN, para detectar comportamentos suspeitos em transações da blockchain Ethereum. Ele abrange desde a análise estatística inicial até a avaliação comparativa dos modelos de detecção de anomalias com métricas supervisionadas.",
+technologies: [
+  "Python",
+  "EDA",
+  "Machine Learning",
+  "Isolation Forest",
+  "DBSCAN",
+  "Visualização de Dados",
+  "Blockchain",
+  "Compliance"
+  ],
+        images: [
+          {
+            src: "/images/anomalias-corr.png",
+            caption: "📊 Heatmap de correlação entre variáveis de transações"
+          },
+          {
+            src: "/images/anomalias-sent-dist.png",
+            caption: "📈 Distribuição da variável 'Sent tnx' com alta assimetria"
+          },
+          {
+            src: "/images/anomalias-erc20-boxplot.png",
+            caption: "📦 Boxplot revela outliers extremos no valor médio de tokens enviados"
+          },
+          {
+            src: "/images/anomalias-threshold.png",
+            caption: "🔍 Threshold definido sobre 'Sent tnx' para baseline simples"
+          },
+          {
+            src: "/images/anomalias-matriz-baseline.png",
+            caption: "🧪 Matriz de confusão do modelo Baseline com bom desempenho de precisão"
+          },
+          {
+            src: "/images/anomalias-isolation-scatter.png",
+            caption: "🌲 Resultados do Isolation Forest destacando padrões anômalos"
+          },
+          {
+            src: "/images/anomalias-matriz-isolation.png",
+            caption: "✅ Matriz de confusão do Isolation Forest com excelente recall"
+          },
+          {
+            src: "/images/anomalias-dbscan-scatter.png",
+            caption: "🟠 DBSCAN com muitos falsos positivos na detecção de anomalias"
+          },
+          {
+            src: "/images/anomalias-matriz-dbscan.png",
+            caption: "📉 Matriz de confusão do DBSCAN evidenciando sobreajuste"
+          }
+        ]
+      }      
   ];
