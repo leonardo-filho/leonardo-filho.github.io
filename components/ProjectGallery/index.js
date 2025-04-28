@@ -27,7 +27,7 @@ const ProjectGallery = () => {
             className="cursor-pointer rounded-lg border border-gray-200 dark:border-gray-700 p-4 hover:shadow-md"
           >
             <h2 className="text-xl font-semibold mb-1">{project.title}</h2>
-            <p className="text-sm opacity-70">{project.description}</p>
+            <p className="text-sm opacity-70">{project.shortDescription}</p>
           </div>
         ))}
       </div>
