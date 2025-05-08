@@ -95,6 +95,69 @@ export const projects = [
         caption: "⚠️ DBSCAN apresenta recall baixo e alta taxa de falsos positivos"
       }
     ]
-  }
+  },
+
+ {
+  id: 3,
+  title: "Dashboard de Previsão de Mortalidade Hospitalar",
+  shortDescription:
+    "Dashboard com análise exploratória e previsão de mortalidade hospitalar utilizando Random Forest.",
+  longDescription:
+    "Este projeto consiste em um dashboard interativo desenvolvido com Streamlit que realiza análise exploratória e previsão de mortalidade hospitalar com base em dados reais de internações e óbitos.\n\nFoi aplicada análise estatística de variáveis como idade, gênero, tempo de internação, poluentes e índice AQI. O modelo Random Forest foi treinado para prever a mortalidade hospitalar, alcançando acurácia de 99%.\n\nA interface permite filtragem dinâmica dos dados e visualização dos resultados com gráficos de barras, boxplots, distribuições e mapas de calor.\n\nEste trabalho demonstra como ciência de dados pode ser aplicada para auxiliar na tomada de decisões clínicas e políticas de saúde pública.\n\n🔍 Conclusão:\nA combinação entre variáveis ambientais (como poluentes e AQI), características demográficas e clínicas se mostrou relevante na análise de mortalidade hospitalar. O modelo Random Forest obteve desempenho excelente, revelando o potencial de modelos de aprendizado de máquina em contextos hospitalares. Além disso, a aplicação de visualizações interativas contribui para a interpretação dos dados por profissionais da saúde e gestores públicos.",
+  technologies: [
+    "Python",
+    "Streamlit",
+    "Scikit-learn",
+    "Pandas",
+    "Seaborn",
+    "Matplotlib",
+    "Random Forest",
+    "Ciência de Dados"
+  ],
+  images: [
+    {
+      src: "/images/mortalidade-area-boxplot.png",
+      caption: "📦 Mortalidade (MRD) por tipo de área"
+    },
+    {
+      src: "/images/mortalidade-distribuicao-idade.png",
+      caption: "📊 Distribuição de idade dos pacientes de mortalidade"
+    },
+    {
+      src: "/images/mortalidade-correlacao-poluentes.png",
+      caption: "🔬 Matriz de correlação entre poluentes atmosféricos"
+    },
+    {
+      src: "/images/mortalidade-distribuicao-aqi.png",
+      caption: "🌫️ Distribuição do índice de qualidade do ar (AQI)"
+    },
+    {
+      src: "/images/mortalidade-pm25-aqi-scatter.png",
+      caption: "📈 Relação entre PM2.5 e AQI"
+    },
+    {
+      src: "/images/mortalidade-tempmax-pm25.png",
+      caption: "🌡️ Relação entre temperatura máxima e PM2.5"
+    },
+    {
+      src: "/images/mortalidade-rf-treino-avaliacao.png",
+      caption: "🧠 Treinamento e avaliação do modelo Random Forest"
+    },
+    {
+      src: "/images/mortalidade-dashboard-distribuicao.png",
+      caption: "📊 Dashboard de mortalidade com filtros por idade e gênero"
+    },
+    {
+      src: "/images/mortalidade-dashboard-metricas.png",
+      caption: "📈 Métricas e desempenho do modelo de previsão"
+    },
+    {
+      src: "/images/mortalidade-tabela-admissoes.png",
+      caption: "📝 Tabela de admissões hospitalares filtradas"
+    }
+  ]
+}
+
+
   
 ];
