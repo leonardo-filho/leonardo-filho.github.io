@@ -31,5 +31,4 @@ Todos os dados são carregados dinamicamente a partir do arquivo `data/portfolio
 
 ## 🖼️ Pré-visualização
 
-> ⚠️ Este site ainda não está publicado.  
-> Em breve estará disponível em uma plataforma como **Vercel** ou **GitHub Pages**.
+https://leo-portfolio-coral.vercel.app/
