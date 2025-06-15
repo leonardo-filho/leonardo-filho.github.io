@@ -2,7 +2,7 @@
   "name": "Leo",
   "headerTaglineOne": "Olá 👋",
   "headerTaglineTwo": "Sou Leonardo Rodrigues",
-  "headerTaglineThree": "Analista de Dados e BI",
+  "headerTaglineThree": "trabalho com análise de dados na Quadra Engenharia",
   "headerTaglineFour": "em Belém, Pará 🇧🇷",
   "showBlog": false,
   "darkMode": true,
@@ -55,9 +55,9 @@
     }
     
   ],
-  "aboutpara": "Sou Analista de Dados e BI formado em Engenharia da Computação. Tenho experiência com análise, tratamento e visualização de dados, além de desenvolvimento de projetos que usam ferramentas como Power BI, Python, SQL, PySpark e Excel avançado. Possuo conhecimento em metodologias ágeis e estou sempre em busca de transformar dados em decisões mais inteligentes.",
+  "aboutpara": "Trabalho com análise de dados na Quadra Engenharia formado em Engenharia da Computação. Tenho experiência com análise, tratamento e visualização de dados, além de desenvolvimento de projetos que usam ferramentas como Power BI, Python, SQL, PySpark e Excel avançado. Possuo conhecimento em metodologias ágeis e estou sempre em busca de transformar dados em decisões mais inteligentes.",
   "resume": {
-    "tagline": "👋 Sou analista de dados e BI com foco em insights e eficiência.",
+    "tagline": "👋 Trabalho com análise de dados com foco em insights e eficiência.",
     "description": "Tenho experiência prática com Power BI, Python, SQL e ferramentas de visualização e ETL. Participei de projetos em empresas como Enacom Group e Nexar, unindo engenharia da computação com ciência de dados.",
     "experiences": [
       {
