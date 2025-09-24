@@ -39,11 +39,11 @@ export const projects = [
         caption: "📊 Dashboard principal com KPIs de Churn Rate, horas médias e projetos."
       },
       {
-        src: "/images/churn-prediction-ui.jpg", // Imagem: Print2.jpg
+        src: "/images/churn-prediction-ui.png", // Imagem: Print2.jpg
         caption: "🤖 Interface de previsão interativa para simular a probabilidade de rotatividade de um funcionário."
       },
       {
-        src: "/images/churn-eda-charts.jpg", // Imagem: Print3.jpg
+        src: "/images/churn-eda-charts.png", // Imagem: Print3.jpg
         caption: "📈 Gráficos da Análise Exploratória (EDA) mostrando a relação entre evasão, satisfação e carga horária."
       },
       {
